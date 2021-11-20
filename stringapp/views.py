@@ -55,7 +55,7 @@ class StringOperations(APIView):
 
                                 "flip"         : string_data[mid::]+string_data[0:mid:],
 
-                                "sort"         : ''.join(filter(lambda x: x!= " ", sorted(string_data)))
+                                "sort"         : ''.join(sorted(string_data))
 
                               }
 
